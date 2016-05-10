@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/syntax.css">
+	</head>
+	<body>
+        <div id="header">
+          <div class="inner">
+            <h1>Small Bits</h1>
+            <p>...on technology</p>
+            <nav>
+                <ul>
+                    <li><a href="{{ site.github.url }}/">Home</a></li>
+                    <li><a href="{{ site.github.url }}/about">About</a></li>
+                    <li><a href="{{ site.github.url }}/cv">CV</a></li>
+                    <li><a href="{{ site.github.url }}/blog">Blog</a></li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+		<div class="content">
+
+            {{ content }}
+
+		</div>
+		<footer>
+            <!-- For now, the footer can just be the legal information...
+    		<ul>
+        		<li><a href="mailto:email@gmail.com">email</a></li>
+        		<li><a href="https://github.com/itmarshall">github.com/itmarshall</a></li>
+			</ul>
+            -->
+            <p id="legal">&copy; 2016 Ian Marshall</p>
+		</footer>
+	</body>
+</html>

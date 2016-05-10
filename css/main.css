@@ -1,0 +1,234 @@
+
+body {
+  background: #e0e0f0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #00f;
+}
+
+a:hover {
+  //color: #f90;
+}
+
+.main {
+  border: 0px ;
+  border-radius: 4px;
+  margin:0 auto;
+  width:1000px;
+  background-color: #f4f4ff;
+  padding: 10px;
+}
+
+.main h1 {
+  font-size: 30px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  color: #0000b0;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+
+.main h2 {
+  font-size: 20px;
+  font-weight: normal;
+
+  //line-height: 40px;
+
+  color: #0000b0;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  //padding-bottom: 5px;
+}
+
+.main p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.main ul, #main ol {
+  margin: 20px;
+}
+
+.main li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main ul li {
+  list-style-type: square;
+}
+
+#main-contents {
+  padding: 30px;
+}
+
+.highlighter-rouge {
+  width: 800px;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  margin-left: 100px;
+  background: #f0f0f0;
+  overflow-x: scroll
+}
+
+.highlighter-rouge .code {
+  padding-left: 6px;
+}
+
+.highlighter-rouge .gutter {
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #808080;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighter-rouge .lineno {
+  color: #8080FF;
+}
+
+.maintable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.maintable td {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  margin: 0px;
+}
+
+.maintable th {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #0000b0;
+}
+
+.maintable .center {
+  text-align: center;
+}
+.main .maintable tr:nth-child(even) {
+  background-color: #e0e0f0;
+}
+
+#legal {
+  font-family: serif;
+  font-size: 12px;
+}
+
+#header {
+  border: 0px ;
+  border-radius: 8px;
+  width: 1000px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #f4f4ff;
+}
+
+#header .inner {
+  display: table-cell;
+  width: 1000px;
+  height: 120px;
+  text-align: center;
+  vertical-align: bottom;
+  padding-bottom: 6px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+#header .inner h1 {
+  font-size: 40px;
+  color: #000000;
+}
+
+#header .inner p {
+  font-size: 18px;
+}
+
+nav {
+  border: 0px ;
+  border-radius: 4px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 5px;
+  //background-color: #f0f0f0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left; 
+}
+
+#header nav a:link, nav a:visited {
+  display: block;
+  width: 248px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #404080;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+nav a:hover, #menu a:active {
+  //color: #fff;
+  background-color: #e0e0f0;
+}
+
+.blog-comments {
+  border: 0px ;
+  border-radius: 4px;
+  margin:0 auto;
+  margin-top: 15px;
+  width:1000px;
+  background-color: #f4f4ff;
+  padding: 10px;
+}
+
+footer {
+  margin: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Verdana, Arial, Sans-serif;
+}
+
+/* Use the border box model so that sizing is more obvious. */
+* {
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box;
+}
+
+
+  
