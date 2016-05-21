@@ -28,7 +28,7 @@ a:hover {
 
 .main h1 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: bold;
 
   line-height: 40px;
 
@@ -39,9 +39,17 @@ a:hover {
 
 .main h2 {
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
 
-  //line-height: 40px;
+  color: #0000b0;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  //padding-bottom: 5px;
+}
+
+.main h3 {
+  font-size: 18px;
+  font-weight: bold;
 
   color: #0000b0;
   letter-spacing: -1px;
