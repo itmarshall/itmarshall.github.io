@@ -59,7 +59,7 @@ a:hover {
 
 .main p {
   margin-top: 15px;
-  font-size: 16px;
+  //font-size: 16px;
 }
 
 .main ul, .main ol {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .main li {
-  font-size: 16px;
+  //font-size: 16px;
   line-height: 24px;
 }
 
@@ -229,6 +229,7 @@ footer {
   padding: 0;
 
   font-family: Verdana, Arial, Sans-serif;
+  font-size: 13px;
 }
 
 /* Use the border box model so that sizing is more obvious. */
