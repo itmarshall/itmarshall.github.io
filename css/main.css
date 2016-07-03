@@ -75,6 +75,11 @@ a:hover {
   list-style-type: square;
 }
 
+.main img {
+  display: block;
+  margin: auto;
+}
+
 #main-contents {
   padding: 30px;
 }
