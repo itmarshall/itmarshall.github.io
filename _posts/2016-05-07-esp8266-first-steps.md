@@ -204,6 +204,8 @@ The following connections were made for an ESP-12:
   </tr>
 </table>
 
+![Connections]({{ site.url }}/images/20160507-ESP8266-Wiring.png)
+
 Once all this is done, hold down the flash switch and either press the reset switch, or turn the power on (or off and on if it is already on), then run the "make flash" command.
 
 If all worked correctly, the LED should now start flashing on and off, for one second each. If so, it worked! Feel free to modify the code to see if you can change the timing - try ½ a second flashing, or on for one second, off for two.
