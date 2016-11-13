@@ -13,17 +13,22 @@ a:visited {
   color: #00f;
 }
 
-a:hover {
-  //color: #f90;
-}
-
 .main {
   border: 0px ;
   border-radius: 4px;
   margin:0 auto;
-  width:1000px;
   background-color: #f4f4ff;
   padding: 10px;
+}
+@media (max-width: 1000px) {
+    .main {
+      width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .main {
+      width: 1000px;
+    }
 }
 
 .main h1 {
@@ -44,7 +49,6 @@ a:hover {
   color: #0000b0;
   letter-spacing: -1px;
   padding-top: 10px;
-  //padding-bottom: 5px;
 }
 
 .main h3 {
@@ -54,12 +58,10 @@ a:hover {
   color: #0000b0;
   letter-spacing: -1px;
   padding-top: 10px;
-  //padding-bottom: 5px;
 }
 
 .main p {
   margin-top: 15px;
-  //font-size: 16px;
 }
 
 .main ul, .main ol {
@@ -67,7 +69,6 @@ a:hover {
 }
 
 .main li {
-  //font-size: 16px;
   line-height: 24px;
 }
 
@@ -85,11 +86,11 @@ a:hover {
 }
 
 .highlighter-rouge {
-  width: 800px;
   border-style: solid;
   border-width: thin;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   background: #f0f0f0;
   overflow-x: scroll
 }
@@ -147,20 +148,29 @@ a:hover {
 #header {
   border: 0px ;
   border-radius: 8px;
-  width: 1000px;
   height: 120px;
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 15px;
   background-color: #f4f4ff;
 }
+@media (max-width: 1000px) {
+    #header {
+      width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    #header {
+      width: 1000px;
+    }
+}
 
 #header .inner {
-  display: table-cell;
-  width: 1000px;
+  width: 100%;
   height: 120px;
   text-align: center;
   vertical-align: bottom;
+  padding-top: 20px;
   padding-bottom: 6px;
   font-size: 40px;
   font-weight: bold;
@@ -180,28 +190,28 @@ a:hover {
 nav {
   border: 0px ;
   border-radius: 4px;
-  width: 1000px;
   margin: 0 auto;
   margin-top: 5px;
-  //background-color: #f0f0f0;
   padding-left: 4px;
   padding-right: 4px;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: 4px;
   padding: 0;
   overflow: hidden;
 }
 
 nav li {
   float: left; 
+  display: block;
+  width: 25%;
 }
 
 #header nav a:link, nav a:visited {
   display: block;
-  width: 248px;
+  width: 100%;
   font-weight: bold;
   font-size: 14px;
   color: #404080;
@@ -211,7 +221,6 @@ nav li {
 }
 
 nav a:hover, #menu a:active {
-  //color: #fff;
   background-color: #e0e0f0;
 }
 
@@ -220,9 +229,18 @@ nav a:hover, #menu a:active {
   border-radius: 4px;
   margin:0 auto;
   margin-top: 15px;
-  width:1000px;
   background-color: #f4f4ff;
   padding: 10px;
+}
+@media (max-width: 1000px) {
+    .blog-comments {
+      width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .blog-comments {
+      width:1000px;
+    }
 }
 
 footer {
