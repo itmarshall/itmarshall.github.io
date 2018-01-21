@@ -85,7 +85,7 @@ a:visited {
   padding: 30px;
 }
 
-.highlighter-rouge {
+.highlighter-rouge div {
   border-style: solid;
   border-width: thin;
   margin-top: 10px;
@@ -93,6 +93,19 @@ a:visited {
   margin-right: 5%;
   background: #f0f0f0;
   overflow-x: scroll
+}
+
+code.highlighter-rouge {
+  background: #f0f0f0;
+  color: #0000b0;
+}
+
+code {
+  font-family: monospace;
+}
+
+.rouge-code span {
+  font-family: monospace;
 }
 
 .highlighter-rouge .code {
@@ -108,7 +121,10 @@ a:visited {
 }
 
 .highlighter-rouge .lineno {
-  color: #8080FF;
+  color: #afaffd;
+  padding-right: 2px;
+  margin-right: 2px;
+  border-right: solid thin #d0cece;
 }
 
 .maintable {
