@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css">
-		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/syntax.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.url | replace: 'http://', '//' }}/css/main.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.url | replace: 'http://', '//' }}/css/syntax.css">
 
 		{% if page.use_math %}
 		<script type="text/javascript"
@@ -30,10 +30,10 @@
             <p>...on technology</p>
             <nav>
                 <ul>
-                    <li><a href="{{ site.github.url }}/">Home</a></li>
-                    <li><a href="{{ site.github.url }}/about">About</a></li>
-                    <li><a href="{{ site.github.url }}/cv">CV</a></li>
-                    <li><a href="{{ site.github.url }}/blog">Blog</a></li>
+                    <li><a href="{{ site.url | replace: 'http://', '//' }}/">Home</a></li>
+                    <li><a href="{{ site.url | replace: 'http://', '//' }}/about">About</a></li>
+                    <li><a href="{{ site.url | replace: 'http://', '//' }}/cv">CV</a></li>
+                    <li><a href="{{ site.url | replace: 'http://', '//' }}/blog">Blog</a></li>
                 </ul>
             </nav>
           </div>
